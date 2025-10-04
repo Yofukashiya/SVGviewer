@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SVG Preview Tool</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+        <div class="main-content">
+<header>
+			<h1>SVG Preview Tool</h1>
+			<p>Edit, preview, and export clean, scalable vector art</p>
+		</header>
+
+		<main>
+			<div class="container">
+				<div class="editor">
+					<div class="editor-header">SVG Code Editor</div>
+					<textarea
+						id="svgInput"
+						placeholder="Paste your SVG code here and watch the magic happen..."
+					></textarea>
+				</div>
+
+				<div class="preview">
+					<div class="preview-header">SVG Preview</div>
+					<div class="preview-content">
+						<div
+							class="preview-container"
+							id="previewContainer"
+						></div>
+					</div>
+				</div>
+			</div>
+
+			<button id="exportBtn">Export SVG</button>
+        </div>
+		</main>
+	</body>
+
+    <script src="index.js"></script>
 </html>
