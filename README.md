@@ -3,7 +3,7 @@
 A lightweight in-browser editor for pasting SVG markup and seeing instant previews.
 
 ## Preview
-![LIVE App Preview](https://yofukashiya.github.io/SVGviewer/)
+[LIVE App Preview](https://yofukashiya.github.io/SVGviewer/)
 
 ## Getting Started
 1. Open `index.html` in your browser.
